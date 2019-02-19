@@ -5,9 +5,9 @@
     <div class="wrapper b-t bg-light">
       <span class="pull-right hidden-xs">
       <?php $this->options->BottomInfo(); ?>
-      Powered by <a target="blank" href="http://www.typecho.org">Typecho</a>&nbsp;|&nbsp;Theme by <a target="blank" href="https://www.ihewro.com/archives/489/">handsome</a>
+      Powered by <a target="blank" href="http://www.typecho.org">Typecho</a>&nbsp;|&nbsp;Theme by <a target="blank" href="https://www.ihewro.com">handsome</a>&nbsp;|&nbsp;Developed by <a target="blank" href="https://www.yimian.xyz">hhCandy</a>
       </span>
-      &copy;&nbsp;<?php echo date("Y");?> Copyright&nbsp;<?php $this->options->BottomleftInfo(); ?>
+		Copyright&nbsp;&copy;<?php echo date("Y");?>&nbsp;<a href="https://www.yimian.xyz">Yimian</a>&nbsp;|&nbsp;<a href="http://www.miitbeian.gov.cn/" target="_blank">鲁ICP备18022823号-1</a></a><?php $this->options->BottomleftInfo(); ?>
     </div>
       <!--可以去除主题版权信息，最好保留版权信息或者添加主题信息到友链，谢谢你的理解-->
       <?php if (@in_array('showSettingsButton',$this->options->featuresetup)): ?>
